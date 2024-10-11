@@ -200,8 +200,3 @@ streamlit run app.py
 - **Pinata上传**：用户上传PDF文件后，临时保存到本地，并通过`upload_pdf_to_pinata`函数上传到Pinata，Pinata返回一个表示文件在IPFS上的哈希值（CID）。
 - **PDF提取**：上传成功后，使用PyPDF2提取PDF内容并显示在文本区域。
 - **OpenAI交互**：用户可以通过输入框向PDF内容提问，`get_openai_response`函数将用户问题和PDF内容发送到OpenAI，并返回相关的响应。
-
-完整代码可在这个GitHub仓库中找到：
-[https://github.com/Jagroop2001/chat-with-pdf](https://github.com/Jagroop2001/chat-with-pdf)
-
-本博客到此结束！敬请期待更多更新，继续构建出色的应用！
